@@ -26,7 +26,6 @@ RUN cat /etc/os-release && \
         grep \
         hdparm \
         htop \
-        hping3 \
         iftop \
         iperf \
         iproute2 \
@@ -34,7 +33,6 @@ RUN cat /etc/os-release && \
         ltrace \
         mtr \
         nano \
-        nc \
         ncdu \
         ncurses \
         ncurses-terminfo \
@@ -49,7 +47,6 @@ RUN cat /etc/os-release && \
         speedtest-cli \
         strace \
         sysstat \
-        ss \
         tar \
         tcpdump \
         tree \
