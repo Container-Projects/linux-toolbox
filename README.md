@@ -24,7 +24,7 @@ Check the dockerfile for the complete list of tools.
 
 ```
 sudo cat > ~/.toolboxrc << "EOF"
-TOOLBOX_DOCKER_IMAGE=chriswayg/toolbox
+TOOLBOX_DOCKER_IMAGE=ghcr.io/container-projects/linux-toolbox:main
 EOF
 
 toolbox
@@ -35,11 +35,11 @@ toolbox
 
 Initialize the toolbox:
 ```
-docker run -it --name toolbox -v /:/media/root --ipc=host --net=host --pid=host chriswayg/toolbox
+docker run -it --name toolbox -v /:/media/root --ipc=host --net=host --pid=host ghcr.io/container-projects/linux-toolbox:main
 ```
 
-Run a command: `docker exec toolbox dig`
-Enter the toolbox: docker start -ia toolbox
+Run a command: `docker exec ghcr.io/container-projects/linux-toolbox:main dig`
+Enter the toolbox: docker start -ia ghcr.io/container-projects/linux-toolbox:main
 
 
 
