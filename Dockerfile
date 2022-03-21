@@ -1,5 +1,5 @@
 FROM alpine
-LABEL maintainer="bugre! Based on https://github.com/chriswayg solution."  
+LABEL maintainer="Pratik raj https://github.com/rajpratik71"  
 ENV TERM=xterm
 WORKDIR /media/root
 
@@ -13,12 +13,14 @@ RUN cat /etc/os-release && \
         atop \
         bash \
         bash-completion \
+        bc \
         bridge-utils \
         ca-certificates \
         coreutils \
         curl \
         bind-tools \
         file \
+        fio \
         gettext \
         git \
         grep \
