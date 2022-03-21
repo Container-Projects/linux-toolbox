@@ -1,5 +1,5 @@
 FROM alpine
-LABEL maintainer="Christian Wagner https://github.com/chriswayg"  
+LABEL maintainer="bugre! Based on https://github.com/chriswayg solution."  
 ENV TERM=xterm
 WORKDIR /media/root
 
@@ -24,12 +24,15 @@ RUN cat /etc/os-release && \
         grep \
         hdparm \
         htop \
+        hping3 \
         iftop \
         iperf \
         iproute2 \
         logrotate \
         ltrace \
+        mtr \
         nano \
+        nc \
         ncdu \
         ncurses \
         ncurses-terminfo \
@@ -38,12 +41,13 @@ RUN cat /etc/os-release && \
         pciutils \
         psmisc \
         pv \
-        python2 \
+        python3 \
         screen \
         shadow \
         speedtest-cli \
         strace \
         sysstat \
+        ss \
         tar \
         tcpdump \
         tree \
