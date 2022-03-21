@@ -1,5 +1,5 @@
 FROM alpine
-LABEL maintainer="bugre! Based on https://github.com/chriswayg solution."  
+LABEL maintainer="bugre! Based on https://github.com/chriswayg solution."
 ENV TERM=xterm
 WORKDIR /media/root
 
